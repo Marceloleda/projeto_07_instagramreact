@@ -3,6 +3,7 @@ body{
     background-color: #FAFAFA;
     display: flex;
 }
+
 *{
     box-sizing: border-box;
     text-decoration: none;
@@ -15,7 +16,7 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 54px;
-    width: 100%;
+    width: 100vw;
     background-color: #FFFFFF;
     border: 1px solid #DBDBDB;
     margin: 0 auto;
@@ -64,6 +65,7 @@ main{
 }
 section{
     margin-left: 240px;
+    display: flex;
 }
 .conteiner-story{
     display: flex;
@@ -114,10 +116,11 @@ section{
 }
 aside{
     position: fixed;
+    /* background-color: #139EF2; */
     width: 293px;
     height: 500px;
     background-color: #FAFAFA;
-    margin-top: 88px;
+    margin-top: -100px;
     margin-left: 900px;
 }
 .sugestao p{
@@ -128,6 +131,7 @@ aside{
 .sugestao{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .sugestao h2{
     font-size: 12px
@@ -265,12 +269,14 @@ button{
 }
 .sugestao-paginas{
     margin-left: 10px;
+    margin-top: 12px;
     height: 60px;
 
 }
 .sugestao-paginas h1{
+    font-weight: bold;
     font-size: 14px;
-    margin-bottom: 4px;
+    line-height: 16px;
 }
 .sugestao-paginas p{
     font-size: 12px;
